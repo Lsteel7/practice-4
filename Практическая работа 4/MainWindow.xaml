@@ -1,0 +1,19 @@
+﻿<Window x:Class="Практическая_работа_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Практическая_работа_4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="527" Width="1052">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content ="Введи цифру от 1 до 9" FontSize="40" Margin="5,0,5,10" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="varX" FontSize="40" Margin="8,107,8,295" Grid.ColumnSpan="3"/>
+        <Button x:Name="rez" Click="zadacha1_Click" FontSize="50" Content="Результат вычислений" Margin="7,285,8,133" Grid.ColumnSpan="3"/>
+    </Grid>
+</Window>
